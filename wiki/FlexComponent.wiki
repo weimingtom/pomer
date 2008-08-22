@@ -1,4 +1,3 @@
-Featured
 #summary Flex Component.
 
 = Introduction =
