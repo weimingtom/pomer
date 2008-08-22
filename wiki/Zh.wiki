@@ -9,7 +9,7 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
  * [OrganizationStructure_Zh 组织架构管理] - 机构、部门、职位
  * [SecurityManagement_Zh 安全管理] - 角色、权限、菜单
  * [SSO_Zh SAM 单点登录集成] - 符合行业标准
- * [codegeneration 代码生成器] - 稳定性、可扩展性
+ * [CodeGeneration_Zh 代码生成器] - 稳定性、可扩展性
  * [webframework Flex 组件] - 渲染高效用户体验
 ----
 ==Pomer 能做什么==
