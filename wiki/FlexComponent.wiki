@@ -1,5 +1,5 @@
 #summary Flex Component.
-#labels Featured,Phase-Implementation
+#labels Featured
 
 = Introduction =
 
