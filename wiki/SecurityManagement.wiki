@@ -1,4 +1,4 @@
-#summary 安全管理.
+#summary Security Management.
 
 = Introduction =
 
