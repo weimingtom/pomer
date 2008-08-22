@@ -3,24 +3,26 @@
 =Pomer：基于Flex和Java EE的信息管理系统基础框架.= 
 [http://code.google.com/p/pomer 英文]
 ==什么是Pomer==
-Pomer is a open source project provides a full spectrum of enterprise application kickstart. [http://www.apache.org/licenses/LICENSE-2.0 License].
+Pomer是一个开源的企业信息管理系统基础框架，它提供了一系列企业信息管理系统的基础功能。
+ [http://www.apache.org/licenses/LICENSE-2.0 License].
 ----
 ==Pomer有哪些组件==
- * [flexcomponent Organization Structure] - Flex Component
- * [accesscontrol Access Control] - Open Source CAS
- * [authority Administration Authority] - Enterprise Standard
- * [codegeneration Code Generation] - Stabilization and Extensibility
- * [webframework Web Framework] - Struts 2.0, Spring 2.5, Hibernate 3.3
+ * [flexcomponent 组织架构] - Flex 组件
+ * [accesscontrol 访问控制] - 开源 CAS
+ * [authority 权限管理] - 符合行业标准
+ * [codegeneration 代码生成] - 稳定并可扩展
+ * [webframework Web 框架] - Struts 2.0, Spring 2.5, Hibernate 3.3
 ----
 ==Pomer能做什么==
 ----
-==Pomer for Newbies==
+==如何使用Pomer==
 ----
-==Pomer Versions==
+==Pomer 版本==
 ----
-==Why Named Pomer==
-*Pomer is an abbreviation of Pomeranian*.
+==Pomer名称的由来==
+*Pomer 取自英文单词Pomeranian的缩写形式*。Pomeranian的意思是波美拉尼亚犬或博美犬，它是狐狸犬家族中最小的犬种，其名出自原产地波美拉尼亚，在波兰西北部和德国东北部。
 
-The Pomeranian (Zwergspitz) is a breed of dog of the Spitz type, originating in Pomerania, which at the time was part of the former eastern territories of Germany. It is the smallest of the German Spitz, and is included in many registries as a separate breed in the toy or Companion group. 
-----
-==Pomer News on Community==
+博美是一种活跃的犬种，聪明勇敢并且是忠实的同伴。它们可能不适于与幼儿互动，因为它们的小体型可能会让它们被小孩虐待。它借着宏亮尖锐的吠声，通知闯入者的到来，证明了它们为优秀的看守犬。它们能轻易的适应都市生活，并且就乡村生活而言，也是优秀的犬种，拥有野生祖先传下来的强烈狩猎本能。
+
+博美犬短小精悍的优良特性赋予了Pomer同样的特征，我们对博美犬的热爱铸就了Pomer(音译博美)名称的由来（两位项目成员各养了一只白色的博美犬）----
+==Pomer 社区新闻==
