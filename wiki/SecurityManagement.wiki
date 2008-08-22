@@ -1,4 +1,5 @@
 #summary Security Management.
+#labels Featured
 
 = Introduction =
 
