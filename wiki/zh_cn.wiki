@@ -10,7 +10,7 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
  * [accesscontrol 访问控制] - 开源 CAS
  * [authority 权限管理] - 符合行业标准
  * [codegeneration 代码生成] - 稳定并可扩展
- * [webframework Web 框架] - Struts 2.0, Spring 2.5, Hibernate 3.3
+ * [webframework Web 框架] - Flex, Struts 2.0, Spring 2.5, Hibernate 3.3
 ----
 ==Pomer 能做什么==
 ----
