@@ -14,7 +14,7 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
 
 *Pomer Functional Architecture*
 
-[http://www.javaeye.com/upload/attachment/35916/d46c23eb-7108-3d64-ba15-b706c2e10b31.jpg]
+[http://www.javaeye.com/upload/attachment/35918/5c06dede-8bb0-3da6-abee-0b46d11c554e.jpg]
 ----
 ==Pomer 能做什么==
  * Pomer是一个基于Flex & Java的基础开发框架。
