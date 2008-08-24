@@ -1,5 +1,4 @@
 #summary Code Generation.
-#labels Featured
 
 = Introduction =
 
