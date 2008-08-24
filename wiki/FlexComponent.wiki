@@ -1,5 +1,4 @@
 #summary Flex Component.
-#labels Featured
 
 = Introduction =
 
