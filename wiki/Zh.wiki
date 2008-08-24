@@ -3,7 +3,7 @@
 =Pomer：基于Flex和Java EE的信息管理系统基础框架= 
 [http://code.google.com/p/pomer 英文]
 ==什么是 Pomer==
-Pomer是一个开源的企业信息管理系统基础框架，它提供了一系列企业信息管理系统的基础功能，包括企业组织架构管理，角色权限管理，菜单管理，数据权限控制等功能。Pomer还提供了丰富实用的Flex控件，可以轻而易举的部署RIA应用程序。基于Pomer，你可以快速开发出优秀的管理信息系统，而不用太关注业务以外的技术细节。Pomer提供一个与SAM的集成包，可以单独做为一个企业的安全管理和认证中心。[http://www.apache.org/licenses/LICENSE-2.0 License].
+Pomer是一个开源的企业信息管理系统基础框架，它提供了一系列企业信息管理系统的基础功能，包括企业组织架构管理，角色权限管理，菜单管理，数据权限控制等功能。Pomer还提供了高效的Flex应用程序开发框架和丰富实用的Flex控件，可以轻而易举的部署RIA应用程序。基于Pomer，可以快速开发出优秀的管理信息系统，而不用太关注业务以外的技术细节。Pomer提供一个与SAM的集成包，可以单独做为一个企业的安全管理和认证中心。[http://www.apache.org/licenses/LICENSE-2.0 License].
 ----
 ==Pomer 有哪些组件==
  * [OrganizationStructure_Zh 组织架构管理] - 机构、部门、职位
