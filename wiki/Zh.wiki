@@ -11,7 +11,7 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
  * [SSO_Zh SAM 单点登录集成] - 符合行业标准
  * [CodeGeneration_Zh 代码生成器] - 稳定性、可扩展性
  * [CodeGeneration_Zh Flex 组件] - 渲染高效用户体验
- * [FlexFramework_Zh Flex 开发框架] - 简易高效的Flex应用程序开发框架
+ * [FlexFramework_Zh Flex 开发框架] - 简洁高效的Flex应用程序开发框架
 
 *Pomer Functional Architecture*
 
