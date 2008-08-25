@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+	<!-- For jdbc settings and future properties files -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath*:**/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- Hibernate SessionFactory -->
+	<bean id="sessionFactory" class="cn.org.pomer.entity.ScanAnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="configLocation"
+			value="classpath:hibernate.cfg.xml" />
+		
+		<!-- annotatedScanPackages可以自动搜索某个package的全部标记@Entity class -->
+		<property name="annotatedScanPackages">
+			<list>
+				<value>cn.org.pomer.excercise.entity</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<value>
+				hibernate.dialect=${hibernate.dialect}
+				hibernate.query.substitutions=true 'Y', false 'N'
+				hibernate.cache.use_second_level_cache=true
+				hibernate.show_sql=${hibernate.show_sql}
+				hibernate.hbm2ddl.auto=${hibernate.hbm2ddl.auto}
+				hibernate.cache.provider_class=org.hibernate.cache.EhCacheProvider
+			</value>
+			<!-- hibernate.jdbc.batch_size=0 -->
+		</property>
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="${hibernate.connection.driver_class}" />
+		<property name="url" value="${hibernate.connection.url}" />
+		<property name="username"
+			value="${hibernate.connection.username}" />
+		<property name="password"
+			value="${hibernate.connection.password}" />
+	</bean>
+	
+	
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="find*" read-only="true" />
+			<tx:method name="*" />
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="pomerServiceOperation"
+			expression="execution(* cn.org.pomer.*.services.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice"
+			pointcut-ref="pomerServiceOperation" />
+	</aop:config>
+
+	<bean id="txManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>
