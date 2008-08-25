@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+ 	<!-- <constant name="struts.action.extension" value="action" />-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.enable.SlashesInActionNames" value="true" />
+
+	<package name="custom-default" extends="struts-default">
+        <result-types>
+            <result-type name="direct"
+            	class="cn.org.pomer.web.DirectResult" />
+        </result-types>
+        <default-interceptor-ref name="paramsPrepareParamsStack"/>
+  	</package>
+  	
+    <!-- 例如 cn.org.pomer.excercise.web.action.StudentAction下有两个方法getAll,和save,
+    	那访问路径就是http://127.0.0.1:8080/pomer/excercise/Student/getAll.action和
+    	http://127.0.0.1:8080/pomer/excercise/Student/save.action
+    -->
+    <package name="demo" namespace="/demo" extends="struts-default">
+		<action name="*/*" method="{2}" class="cn.org.pomer.demo.web.action.{1}Action">
+		</action>		
+    </package>
+    
+</struts>
