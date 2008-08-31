@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" backgroundGradientColors="[#142943, #FFFFFF]" backgroundGradientAlphas="[1.0, 1.0]" xmlns:component="component.*" xmlns:treeMenu="component.treeMenu.*">
+	<mx:Style>
+		Application{
+			font-family: "Tahoma";
+			font-size: 11px;
+		}
+	</mx:Style>
+	<mx:Image x="10" y="10" source="@Embed(source='assets/images/pomer_logo.png')"/>
+	<mx:Text text="linlin | Logout&#xd;&#xd;&#xd;" color="#FFFFFF" right="20" top="10"/>
+	
+	<mx:TabNavigator right="19" left="21" bottom="34" top="41" tabOffset="250" paddingTop="0">
+		<mx:HBox label="System Setting">
+			<mx:Canvas width="250" height="100%">
+				<treeMenu:TreeMenu left="10" right="10" top="10"/>
+			</mx:Canvas>
+			<mx:Canvas height="100%">
+				
+			</mx:Canvas>
+		</mx:HBox>
+		<mx:Canvas label="Security" width="100%" height="100%">
+		</mx:Canvas>
+	</mx:TabNavigator>
+	<mx:Text text="Powered by pomer developing team." width="410" bottom="10" left="20"/>
+</mx:Application>
