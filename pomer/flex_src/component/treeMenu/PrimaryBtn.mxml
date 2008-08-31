@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Button xmlns:mx="http://www.adobe.com/2006/mxml" 
+	styleName="primaryBtn" 
+	buttonMode="true"
+	skin="{skin}"
+	selectedUpSkin="{selectedSkin}"
+	selectedOverSkin="{selectedSkin}"
+	selectedDownSkin="{selectedSkin}"
+	selectedDisabledSkin="{selectedSkin}"
+	width="100%"
+	rollOver="this.setStyle('textDecoration','underline')"
+	rollOut="this.setStyle('textDecoration','none')"
+	creationComplete="init()">
+	<mx:Style>
+		.primaryBtn{
+			borderColor: #d7d7d7;
+			textAlign: left;
+			fontFamily: "Tahoma";
+			fontWeight: normal;
+			color: #000000;
+		}
+	</mx:Style>
+	<mx:Script>
+		<![CDATA[
+			import mx.binding.utils.BindingUtils;
+			[Bindable]
+			[Embed(source="assets/images/primaryBtnUp.png",
+					scaleGridLeft=10,scaleGridRight=12,
+					scaleGridTop=10,scaleGridBottom=12)]
+			private var skin:Class;
+			
+			[Bindable]
+			[Embed(source="assets/images/primaryBtnSelected.png",
+					scaleGridLeft=10,scaleGridRight=12,
+					scaleGridTop=10,scaleGridBottom=12)]
+			private var selectedSkin:Class;
+			
+			private function init():void{
+				BindingUtils.bindSetter(setTextColor,this,"selected");
+			}
+			
+			private function setTextColor(selected:Boolean):void{
+				if(selected){
+					this.setStyle("textRollOverColor","#ffffff");
+					this.setStyle("color","#ffffff");
+				}else{
+					this.setStyle("textRollOverColor","#000000");
+					this.setStyle("color","#000000");
+				}
+			}
+		]]>
+	</mx:Script>
+</mx:Button>
