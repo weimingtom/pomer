@@ -7,7 +7,7 @@ Pomer代码生成器使用freemark做为模板语言.结合Pomer代码生成器�
 
 Pomer代码生成器主要功能如下：
  * 从数据库直接生成基于Pomer框架的可运行的增删改查java后台和Cairngorm的前台FLEX代码
- * 从Java Pojo生成flex的列表，表单，和DTO
+ * 从Java Pojo生成flex的列表，表单，和数据传输对象
  * 从Java接口生成flex Cairngorm的框架代码。
 
 Pomer代码生成的组成：
