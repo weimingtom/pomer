@@ -4,7 +4,7 @@
 = Introduction =
 
 Pomer代码生成器，主要生成Pomer框架的模块代码。
-Pomer代码生成器使用freemark做为模板语言.结合Pomer代码生成器和freemark模板，可直接生成基于pomer框架的代码，以提高工作效率。使用Pomer框架和Pomer代码生成器，可平均降低项目30%-50%的开发时间，让你专注于业务开发。
+Pomer代码生成器使用freemark做为模板语言.结合Pomer代码生成器和freemark模板，可直接生成基于pomer框架的代码，以提高工作效率。使用Pomer框架和Pomer代码生成器，可平均降低项目30%-50%的编码时间，让您专注于业务开发。
 
 Pomer代码生成器主要功能如下：
  * 从数据库直接生成基于Pomer框架的可运行的增删改查java后台和Cairngorm的前台FLEX代码
