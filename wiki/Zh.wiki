@@ -9,7 +9,7 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
  * [OrganizationStructure_Zh 组织架构管理] - 灵巧的、轻便的、独立的和易植入的组织架构管理模块
  * [SecurityManagement_Zh 安全管理] - 简洁的基于角色的访问控制方法（RBAC）和菜单权限控制
  * [SSO_Zh SAM 单点登录集成] - 基于行业标准的开源单点登录集成
- * [CodeGeneration_Zh 代码生成器] - 基于自定义模板的Flex和Java代码生成器，具有高可扩展性，可平均缩短30%以上的编码时间,让您从大量样板代码中解放出来，从而专注于业务代码开发
+ * [CodeGeneration_Zh 代码生成器] - 基于自定义模板的Flex和Java代码生成器，可平均缩短30%以上的编码时间，让您从大量样板代码中解放出来，从而专注于业务代码开发
  * [CodeGeneration_Zh Flex 组件] - 提供一系列高效用户交互组件，渲染极佳用户体验
  * [FlexFramework_Zh Flex 开发框架] - 封装多种Flex和Java间通信方式，经检验的基于Flex和Java的高效应用程序组织方式和代码结构设计，提高开发效率和代码重用性
 
