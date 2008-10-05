@@ -61,5 +61,5 @@ Pomer提供一个简单的通用安全框架。
 ==Pomer 社区新闻==
 ----
 
-==[help_doc_zh Document 开始在线学习Pomer]==
+==[help_doc_zh 开始在线学习Pomer]==
 ----
