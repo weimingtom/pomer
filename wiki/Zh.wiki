@@ -7,20 +7,24 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
 ----
 ==Pomer 有哪些组件==
  * [OrganizationStructure_Zh 组织架构管理]
-Pomer提供一个简单的企业组织架构管理。主要是为了演示FLEX和JAVA的各种应用模式。
+    Pomer提供一个简单的企业组织架构管理。主要是为了演示FLEX和JAVA的各种应用模式。
+
  * [SecurityManagement_Zh 安全管理]
-Pomer提供一个简单的通用安全框架。
- * [SSO_Zh SAM 单点登录集成] - 基于行业标准的开源单点登录集成
+    Pomer提供一个简单的通用安全框架。
+
+ * [SSO_Zh SAM 单点登录集成]
+   基于行业标准的开源单点登录集成
+
  * [CodeGeneration_Zh 代码生成器]
-Pomer代码生成器包括两个部分，一个是强大灵活通用代码生成器模型和一套基于Pomer的默认模板。
+    Pomer代码生成器包括两个部分，一个是强大灵活通用代码生成器模型和一套基于Pomer的默认模板。
       Pomer通用代码生成器采用freemark做为模板引擎，可以生成任何基于数据表或javaPojo和java接口的代码，用户只需提供freemark的模板即可。
       Pomer提供的默认生成功能和默认模板可以通过数据库生成基于Pomer框架可运行的增删改查代码，也可以从javaBean生成RemoteObject的数据传输对象、表单和列表，还能通过java接口生成Cairngorm的框架代码。
 
-
  * [CodeGeneration_Zh Flex 组件]
-提供一系列高效用户交互组件，渲染极佳用户体验
+    提供一系列高效用户交互组件，渲染极佳用户体验
+
  * [FlexFramework_Zh Flex 开发框架] 
-Pomer主要采用spring和hibernate做为后台框架，通过blazeds(LCDS)RemoteObject与java后台通信，前台采用Cairngorm MVC框架， Pomer框架主要作用就是简化blazeds(LCDS)RemoteObject的访问方式，提高开发效率。Pomer通过注解 (Annotation)将普通java对象，Spring Bean和EJB发布为远程对象（RemoteObject）提供给flex访问，而不需要进行任何配置 。
+    Pomer主要采用spring和hibernate做为后台框架，通过blazeds(LCDS)RemoteObject与java后台通信，前台采用Cairngorm MVC框架， Pomer框架主要作用就是简化blazeds(LCDS)RemoteObject的访问方式，提高开发效率。Pomer通过注解 (Annotation)将普通java对象，Spring Bean和EJB发布为远程对象（RemoteObject）提供给flex访问，而不需要进行任何配置 。
 
 *Pomer Functional Architecture*
 
