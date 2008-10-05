@@ -46,6 +46,6 @@ Pomer是一个开源的企业信息管理系统基础框架，它提供了一系
 ----
 ==Pomer 社区新闻==
 ----
-==Document==
-[help_doc_zh Document Online]
+==学习文档==
+[help_doc_zh Document 在线文档]
 ----
