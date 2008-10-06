@@ -1,5 +1,8 @@
-=PomerGenerator=
+站点维护中........
+=Pomer=
 ==Pomer1.0==
 
+
+=PomerGenerator=
 ==PomerGenerator1.0==
 [http://nchc.dl.sourceforge.net/sourceforge/pomer/PomerGenerator1.0-src.rar PomerGenerator1.0-src.rar]
