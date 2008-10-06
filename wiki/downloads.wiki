@@ -1,8 +1,8 @@
 =Pomer=
-==Pomer1.0==
+
 [http://downloads.sourceforge.net/pomer/pomer1.0-src.rar pomer1.0-src.rar]
 [http://downloads.sourceforge.net/pomer/pomer1.0-war.rar pomer1.0-war.rar]
 
 =PomerGenerator=
-==PomerGenerator1.0==
+
 [http://nchc.dl.sourceforge.net/sourceforge/pomer/PomerGenerator1.0-src.rar PomerGenerator1.0-src.rar]
