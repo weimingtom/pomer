@@ -11,7 +11,9 @@
 [http://downloads.sourceforge.net/pomer/PomerGenerator1.0-src.rar?modtime=1223341282&big_mirror=0 PomerGenerator1.0-src.rar]
 ----
 ==[help_doc_zh 开始在线学习Pomer]==
-----
+
+
+
 
 如果使用下载工具不能下载，请直接右键另存为。
 
