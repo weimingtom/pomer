@@ -7,7 +7,7 @@
 
 =PomerGenerator=
 
-[http://downloads.sourceforge.net/pomer/PomerGenerator1.0-src.rar PomerGenerator1.0-src.rar]
+[http://nchc.dl.sourceforge.net/sourceforge/pomer/PomerGenerator1.0-src.rar PomerGenerator1.0-src.rar]
 
 如果使用下载工具不能下载，请直接右键另存为。
 
