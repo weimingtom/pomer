@@ -10,6 +10,9 @@
 
 [http://downloads.sourceforge.net/pomer/PomerGenerator1.0-src.rar?modtime=1223341282&big_mirror=0 PomerGenerator1.0-src.rar]
 ----
+
+[http://sourceforge.net/project/showfiles.php?group_id=237895 去SourceForge下载]
+----
 ==[help_doc_zh 开始在线学习Pomer]==
 
 
